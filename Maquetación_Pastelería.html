@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería </title>
+</head>
+<body>
+    <img src="logo_pasteleria.JPG" alt="logo de la pastelería">
+    <h1>Pastelería Don Amaury</h1>
+    <p>"si lo puedes imaginar, nosotros lo podemos hacer"</p>
+    
+    <h2>¡Crea tu propio pastel!</h2>
+    <hr>
+
+    <h3>Sabores:</h3>
+    <ul>
+        <dl>
+            <dt>Chocolate:</dt>
+            <dd>Precio: $120.00 MXN</dd>
+        
+            <dt>Tres Leches:</dt>
+            <dd>Precio: $130.00 MXN</dd>
+        
+            <dt>Choco-Menta:</dt>
+            <dd>Precio: $200.00 MXN</dd>
+        </dl>
+    </ul>
+    <hr>
+    <h3>Adornos:</h3>
+    <ul>
+        <dl>
+            <dt>Adorno Flor:</dt>
+            <dd>Precio: $20.00 MXN</dd>
+        
+            <dt>Adorno Contorno Chantillin:</dt>
+            <dd>Precio: $30.00 MXN</dd>
+        
+            <dt>Adorno Personalizado:</dt>
+            <dd>Precio: $50.00 MXN</dd>
+        </dl>
+    </ul>
+    
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Datos del Cliente</legend>
+
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="EJ. Juan">
+
+            <br>
+            <label for="tel">Telefono:</label>
+            <input type="tel" id="tel" name="tel">
+
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+
+            <br>
+            <label for="desc">Descripción del pastel:</label>
+            <br>
+            <textarea name="desc" id="desc" cols="90" rows="10"></textarea>
+
+            <br>
+            <fieldset>
+                <legend>Sabores:</legend>
+
+                <label for="chocolate">Chocolate:</label>
+                <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+                <br>
+                <label for="tleches">Tres Leches:</label>
+                <input type="checkbox" id="tleches" name="tleches" value="tleches">
+                <br>
+                <label for="cm">Chocolate:</label>
+                <input type="checkbox" id="cm" name="cm" value="cm">
+            </fieldset>
+
+            <fieldset>
+                <legend>Adornos:</legend>
+                <label for="flor">Flor:</label>
+                <input type="checkbox" id="flor" name="flor" value="flor">
+                <br>
+                <label for="Chantillin">Orilla de Chantillin:</label>
+                <input type="checkbox" id="Chantillin" name="Chantillin" value="Chantillin">
+                <br>
+                <label for="Perosnalizado">Personalizado:</label>
+                <input type="checkbox" id="Perosnalizado" name="Perosnalizado" value="Perosnalizado">
+            </fieldset>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar Formulario">
+
+    </form>
+
+
+    <footer>
+        <h3>Contáctanos</h3>
+        <p>Dirección: Siempre viva, col. Nunca muerta, No. 555</p>
+        <p>Teléfono: 5512345678</p>
+        <p>Horarios de atención: Lun a Dom de 7:00am - 8:00pm</p>
+    </footer>
+
+</body>
+</html>
